@@ -11,9 +11,9 @@ Dependencias e comandos:
 1 - "yarn init -y" (criar o package.json) and "yarn add express pg pg-hstore sequelize"
 2 - "yarn add sequelize-cli -D" (interface de linha de comando) yarn sequelize --help (comandos disponiveis)
 3 - "yarn add nodemon -D" crair script => script:{ dev : nodemon src/server.js}
-4 -  create file ".sequelizerc" and Config.                   yarn sequelize db:create
-5 - 
-6 - 
+4 -  create file ".sequelizerc" and Config.                   yarn sequelize db:create para criar o Banco
+5 -  yarn sequelize migration:create --name=create-users  (Migration que cria a tabela de usuários)
+6 - yarn sequelize db:migrate (para efetivar a criação da migration (criação ou alteração de tabelas)) yarn sequelize db:migrate:undo (para desfazer)
 7 - 
 8 - 
 9 - 
