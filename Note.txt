@@ -1,0 +1,30 @@
+Anotações: 
+    Tipos de abstrações: 
+        1 - Driver Nativo (Diretamente com o banco de dados(query por completo))
+        2 - Query Builder(knext) (simplifica comandos query para uma sintaxe mais simples)
+        3 - ORM (sequelize)
+
+
+
+
+Dependencias e comandos:
+1 - "yarn init -y" (criar o package.json) and "yarn add express pg pg-hstore sequelize"
+2 - "yarn add sequelize-cli -D" (interface de linha de comando) yarn sequelize --help (comandos disponiveis)
+3 - "yarn add nodemon -D" crair script => script:{ dev : nodemon src/server.js}
+4 -  create file ".sequelizerc" and Config.                   yarn sequelize db:create
+5 - 
+6 - 
+7 - 
+8 - 
+9 - 
+10 - 
+11 - 
+12 - 
+13 - 
+14 - 
+15 - 
+
+
+
+
+alternativa de banco em nuvem: ElephantSQL

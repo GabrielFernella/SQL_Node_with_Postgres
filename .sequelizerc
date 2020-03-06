@@ -1,0 +1,6 @@
+const path = require('path'); //para lidar com caminhos do node
+
+module.exports = {
+    config: path.resolve(__dirname, 'src', 'config', 'database.js'), //Caminho para o arquivo de config do banco (credencias e etc)
+    
+}
