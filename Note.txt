@@ -14,7 +14,7 @@ Dependencias e comandos:
 4 -  create file ".sequelizerc" and Config.                   yarn sequelize db:create para criar o Banco
 5 -  yarn sequelize migration:create --name=create-users  (Migration que cria a tabela de usuários)
 6 - yarn sequelize db:migrate (para efetivar a criação da migration (criação ou alteração de tabelas)) yarn sequelize db:migrate:undo (para desfazer)
-7 - 
+7 - yarn sequelize migration:create --name=create-addresses (molde para criar a tabela de endereços)
 8 - 
 9 - 
 10 - 
