@@ -7,6 +7,7 @@ Anotações:
 
 
 
+
 Dependencias e comandos:
 1 - "yarn init -y" (criar o package.json) and "yarn add express pg pg-hstore sequelize"
 2 - "yarn add sequelize-cli -D" (interface de linha de comando) yarn sequelize --help (comandos disponiveis)
@@ -28,3 +29,5 @@ Dependencias e comandos:
 
 
 alternativa de banco em nuvem: ElephantSQL
+
+# caso de erro com o bluebird, execute esse comando: npm i bluebird
