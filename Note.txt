@@ -28,6 +28,6 @@ Dependencias e comandos:
 
 
 
-alternativa de banco em nuvem: ElephantSQL
+alternativa de banco em nuvem: ElephantSQL com Postgres
 
 # caso de erro com o bluebird, execute esse comando: npm i bluebird
