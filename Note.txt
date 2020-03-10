@@ -19,11 +19,6 @@ Dependencias e comandos:
 8 - yarn sequelize migration:create --name=create-techs (cria a tabela de tecnologias)    
 9 - yarn sequelize migration:create --name=user-techs (Cria a tabela de conexão entre Users e Techs) and yarn sequelize db:migrate
 10 - 
-11 - 
-12 - 
-13 - 
-14 - 
-15 - 
 
 
 
